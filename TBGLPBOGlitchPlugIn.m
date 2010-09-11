@@ -512,7 +512,7 @@ static void TBRowLengthTextureRelease(CGLContextObj cgl_ctx, GLuint name, void* 
 	else if ([key isEqualToString:@"inputPackType"])
 	{
 		return [NSDictionary dictionaryWithObjectsAndKeys:@"Pack Type", QCPortAttributeNameKey,
-				[NSNumber numberWithUnsignedInt:18U], QCPortAttributeDefaultValueKey,
+				[NSNumber numberWithUnsignedInt:17U], QCPortAttributeDefaultValueKey,
 				[NSNumber numberWithUnsignedInt:0U], QCPortAttributeMinimumValueKey,
 				[NSNumber numberWithUnsignedInt:21U], QCPortAttributeMaximumValueKey,
 				[self typesArray], QCPortAttributeMenuItemsKey,
@@ -551,7 +551,7 @@ static void TBRowLengthTextureRelease(CGLContextObj cgl_ctx, GLuint name, void* 
 	else if ([key isEqualToString:@"inputUnpackType"])
 	{
 		return [NSDictionary dictionaryWithObjectsAndKeys:@"Unpack Type", QCPortAttributeNameKey,
-				[NSNumber numberWithUnsignedInt:18U], QCPortAttributeDefaultValueKey,
+				[NSNumber numberWithUnsignedInt:17U], QCPortAttributeDefaultValueKey,
 				[NSNumber numberWithUnsignedInt:0U], QCPortAttributeMinimumValueKey,
 				[NSNumber numberWithUnsignedInt:21U], QCPortAttributeMaximumValueKey,
 				[self typesArray], QCPortAttributeMenuItemsKey,

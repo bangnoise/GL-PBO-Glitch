@@ -48,6 +48,7 @@
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3333391237F75D00B0A379 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		BDFE1629123AFE460011C53D /* Read Me.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Read Me.rtf"; sourceTree = "<group>"; };
+		BDFE1669123B06A20011C53D /* PBO Glitch Example.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "PBO Glitch Example.qtz"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +124,7 @@
 		BDFE1628123AFE120011C53D /* Packaging */ = {
 			isa = PBXGroup;
 			children = (
+				BDFE1669123B06A20011C53D /* PBO Glitch Example.qtz */,
 				BDFE1629123AFE460011C53D /* Read Me.rtf */,
 			);
 			name = Packaging;
@@ -153,7 +155,7 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "glitch" */;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "PBO Glitch QC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -294,7 +296,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "glitch" */ = {
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "PBO Glitch QC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB913F08733D840010E9CD /* Debug */,
