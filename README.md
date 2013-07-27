@@ -3,6 +3,8 @@ GL PBO Glitch
 
 A plugin for Quartz Composer to misrepresent pixel-buffer data on the GPU.
 
+![Example Image](http://kriss.cx/tom/wp-content/uploads/2010/09/BGRA-FLOAT-to-RGB_422-8_8-2-x-width-700x393.png)
+
 See also:
 
 http://kriss.cx/tom/2010/09/gl-pbo-glitch/
