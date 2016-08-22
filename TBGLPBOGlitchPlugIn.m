@@ -2,8 +2,7 @@
 //  TBTextureGlitchPlugIn.m
 //  glitch
 //
-//  Created by Tom on 04/09/2010.
-//  Copyright (c) 2010 Tom Butterworth. All rights reserved.
+//  Created by Tom Butterworth on 04/09/2010.
 //
 
 #import <OpenGL/CGLMacro.h>
@@ -11,7 +10,7 @@
 #import "TBGLPBOGlitchPlugIn.h"
 
 #define	kQCPlugIn_Name				@"GL PBO Glitch / bangnoise"
-#define	kQCPlugIn_Description		@"Misrepresents image data to produce glitch.\n\nPass in 0 for Unpack Width and/or Unpack Height to use the dimension(s) of the input image. Illegal combinations of Format and Type will honour Format and ignore Type.\nIf Unpack Width, Height and Offset overrun the available data, output will be cropped.\nConsult http://www.opengl.org/sdk/docs/man/xhtml/glTexImage2D.xml\nCopyright Tom Butterworth (bangnoise) 2010"
+#define	kQCPlugIn_Description		@"Misrepresents image data to produce glitch.\n\nPass in 0 for Unpack Width and/or Unpack Height to use the dimension(s) of the input image. Illegal combinations of Format and Type will honour Format and ignore Type.\nIf Unpack Width, Height and Offset overrun the available data, output will be cropped.\nConsult http://www.opengl.org/sdk/docs/man/xhtml/glTexImage2D.xml\nBy Tom Butterworth (bangnoise) 2010"
 
 static void TBRowLengthTextureRelease(CGLContextObj cgl_ctx, GLuint name, void* context)
 {

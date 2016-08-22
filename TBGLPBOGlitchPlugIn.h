@@ -2,8 +2,7 @@
 //  TBTextureGlitchPlugIn.h
 //  glitch
 //
-//  Created by Tom on 04/09/2010.
-//  Copyright (c) 2010 Tom Butterworth. All rights reserved.
+//  Created by Tom Butterworth on 04/09/2010.
 //
 
 #import <Quartz/Quartz.h>

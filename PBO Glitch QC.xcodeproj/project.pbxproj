@@ -47,8 +47,8 @@
 		8D5B49B6048680CD000E48DA /* GL PBO Glitch bangnoise.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GL PBO Glitch bangnoise.plugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3333391237F75D00B0A379 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		BDFE1629123AFE460011C53D /* Read Me.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Read Me.rtf"; sourceTree = "<group>"; };
 		BDFE1669123B06A20011C53D /* PBO Glitch Example.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "PBO Glitch Example.qtz"; sourceTree = "<group>"; };
+		E26166611D6B3BE200D816FD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +124,8 @@
 		BDFE1628123AFE120011C53D /* Packaging */ = {
 			isa = PBXGroup;
 			children = (
+				E26166611D6B3BE200D816FD /* README.md */,
 				BDFE1669123B06A20011C53D /* PBO Glitch Example.qtz */,
-				BDFE1629123AFE460011C53D /* Read Me.rtf */,
 			);
 			name = Packaging;
 			sourceTree = "<group>";
